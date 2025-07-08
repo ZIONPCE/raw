@@ -127,16 +127,3 @@ Tab:AddButton({
       Workspace.CurrentCamera.FieldOfView = Value
   end
 })
-
-local Tab = Window:MakeTab({
-	Name = "死铁轨",
-	Icon = "rbxassetid://7734068321",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "刷劵",
-  Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
-  end
-})

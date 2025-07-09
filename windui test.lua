@@ -16,7 +16,7 @@ local Window = WindUI:CreateWindow({
 })
 
 Window:EditOpenButton({
-    Title = "      开启UI      ",
+    Title = "      打开Z脚本      ",
     Icon = "eye",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2,
@@ -36,7 +36,7 @@ local Tab = Window:Tab({
 
 local Paragraph = Tab:Paragraph({
     Title = "旧版UI脚本",
-    Desc = "暂时先用这个",
+    Desc = "",
     Color = "Red",
     Image = "",
     ImageSize = 30,
@@ -47,7 +47,7 @@ local Paragraph = Tab:Paragraph({
         {
             Icon = "pointer",
             Title = "点击",
-            Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CNHM/asg/refs/heads/main/hm.lua"))() end,
+            Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZIONPCE/raw/refs/heads/main/Z.lua"))() end,
         }
     }
 })

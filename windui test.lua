@@ -54,7 +54,7 @@ local Paragraph = Tab:Paragraph({
 
 local Button = Tab:Button({
     Title = "穿墙",
-    Desc = "所有服务器通用",
+    Desc = "通用",
     Locked = false,
     Callback = function()
     local Workspace = game:GetService("Workspace")
@@ -168,12 +168,18 @@ end)
   end
 })
 
+local Tab = Window:Tab({
+    Title = "水墨游戏",
+    Icon = "warehouse",
+    Locked = false,
+})
+
 local Button = Tab:Button({
-    Title = "xa",
-    Desc = "",
+    Title = "OP",
+    Desc = "老外制作",
     Locked = false,
     Callback = function()
-    loadstring(game:HttpGet(('https://github.com/devslopo/DVES/raw/main/XK%20Hub')))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e1cfd93b113a79773d93251b61af1e2f.lua"))()
     end
 })
 

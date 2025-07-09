@@ -168,6 +168,15 @@ end)
   end
 })
 
+local Button = Tab:Button({
+    Title = "xa",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+    loadstring(game:HttpGet(('https://github.com/devslopo/DVES/raw/main/XK%20Hub')))()
+    end
+})
+
 local Section = Tab:Section({ 
     Title = "Section",
     TextXAlignment = "Left",

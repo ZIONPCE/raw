@@ -432,6 +432,16 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
+  Name = "霖脚本",
+  Callback = function()
+  --通用，这样方便一些
+KingScript = "By King" Roblox= "草拟吗"
+KingTeam= "King无敌"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShenJiaoBen/ShenJiaoBen/refs/heads/main/%E9%9C%96%E6%BA%BA%E8%84%9A%E6%9C%AC%E9%80%9A%E7%94%A8.lua"))()
+  end
+})
+
+Tab:AddButton({
   Name = "沙脚本",
   Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/114514lzkill/ShaHUB/refs/heads/main/ShaHUB.lua"))()

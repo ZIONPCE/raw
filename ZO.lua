@@ -1,1 +1,168 @@
-Z2FtZTpHZXRTZXJ2aWNlKCJTdGFydGVyR3VpIik6U2V0Q29yZSgiU2VuZE5vdGlmaWNhdGlvbiIseyBUaXRsZSA9ICJa6ISa5pys5rWL6K+V54mIIjsgVGV4dCA9IlrohJrmnKzmtYvor5XniYgiOyBEdXJhdGlvbiA9IDI1OyB9KQoKbG9jYWwgQ29yZUd1aSA9IGdhbWU6R2V0U2VydmljZSgiU3RhcnRlckd1aSIpCgpDb3JlR3VpOlNldENvcmUoIlNlbmROb3RpZmljYXRpb24iLCB7CiAgICBUaXRsZSA9ICJa6ISa5pys5rWL6K+V54mIIiwKICAgIFRleHQgPSAi5Y+N5oyC5py65bey5byA5ZCvIiwKICAgIER1cmF0aW9uID0gNSwgCn0pCgpsb2NhbCBTb3VuZCA9IEluc3RhbmNlLm5ldygiU291bmQiKQogICAgICAgIFNvdW5kLlBhcmVudCA9IGdhbWUuU291bmRTZXJ2aWNlCiAgICAgICAgU291bmQuU291bmRJZCA9ICJyYnhhc3NldGlkOi8vNjAxMTA5NDM4MCIKICAgICAgICBTb3VuZC5Wb2x1bWUgPSAzCiAgICAgICAgU291bmQuUGxheU9uUmVtb3ZlID0gdHJ1ZQogICAgICAgIFNvdW5kOkRlc3Ryb3koKQoKcHJpbnQoIuWPjeaMguacuuW8gOWQryIpCgkJbG9jYWwgdnUgPSBnYW1lOkdldFNlcnZpY2UoIlZpcnR1YWxVc2VyIikKCQlnYW1lOkdldFNlcnZpY2UoIlBsYXllcnMiKS5Mb2NhbFBsYXllci5JZGxlZDpjb25uZWN0KGZ1bmN0aW9uKCkKCQkgICB2dTpCdXR0b24yRG93bihWZWN0b3IyLm5ldygwLDApLHdvcmtzcGFjZS5DdXJyZW50Q2FtZXJhLkNGcmFtZSkKCQkgICB3YWl0KDEpCgkJICAgdnU6QnV0dG9uMlVwKFZlY3RvcjIubmV3KDAsMCksd29ya3NwYWNlLkN1cnJlbnRDYW1lcmEuQ0ZyYW1lKQoJCWVuZCkKbG9jYWwgT3Jpb25MaWIgPSBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3hpYWsyNy82MzcvcmVmcy9oZWFkcy9tYWluL3hpYW81ODYubHVhJykpKCkKbG9jYWwgV2luZG93ID0gT3Jpb25MaWI6TWFrZVdpbmRvdyh7TmFtZSA9IlrohJrmnKzmtYvor5XniYgiLCBIaWRlUHJlbWl1bSA9IGZhbHNlLCBTYXZlQ29uZmlnID0gdHJ1ZSxJbnRyb1RleHQgPSAiWuiEmuacrOa1i+ivleeJiCIsIENvbmZpZ0ZvbGRlciA9ICJa6ISa5pys5rWL6K+V54mIIn0pCgpsb2NhbCBUYWIgPSBXaW5kb3c6TWFrZVRhYih7CiAgICBOYW1lID0gIuS/oeaBryIsCiAgICBJY29uID0gInJieGFzc2V0aWQ6Ly8xMDY0Mjc1MjQwOSIsCiAgICBQcmVtaXVtT25seSA9IGZhbHNlCn0pCgpUYWI6QWRkUGFyYWdyYXBoKCJa6ISa5pys5rWL6K+V54mI54mIIikKVGFiOkFkZFBhcmFncmFwaCgi5L2c6ICFcm9ibG94IGlkOnI0ZGh6bTc4IikKVGFiOkFkZFBhcmFncmFwaCgi5L2c6ICFUVEzODkxNzIyNDQwIikKVGFiOkFkZFBhcmFncmFwaCgiUee+pDEwMDc1ODA2NDMiKQpUYWI6QWRkUGFyYWdyYXBoKCJRMue+pDEwNDUwNjE3NzUiKQpUYWI6QWRkUGFyYWdyYXBoKCLlgJLljZbpqazpg73po57lpKnkuIrljrvkuoYiKQpsb2NhbCBUYWIgPSBXaW5kb3c6TWFrZVRhYih7CglOYW1lID0gIumAmueUqCIsCglJY29uID0gInJieGFzc2V0aWQ6Ly83NzM0MDY4MzIxIiwKCVByZW1pdW1Pbmx5ID0gZmFsc2UKfSkKClRhYjpBZGRQYXJhZ3JhcGgoIueUqOaIt+WQjToiLCIgIi4uZ2FtZS5QbGF5ZXJzLkxvY2FsUGxheWVyLk5hbWUuLiIiKQpUYWI6QWRkUGFyYWdyYXBoKCLms6jlhaXlmag6IiwiICIuLmlkZW50aWZ5ZXhlY3V0b3IoKS4uIiIpClRhYjpBZGRQYXJhZ3JhcGgoIuacjeWKoeWZqOeahElEIiwiICIuLmdhbWUuR2FtZUlkLi4iIikKClRhYjpBZGRCdXR0b24oewogIE5hbWUgPSAi6aOe6KGMVjMiLAogIENhbGxiYWNrID0gZnVuY3Rpb24oKQogIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQ05ITS9hc2cvcmVmcy9oZWFkcy9tYWluL2ZseS5sdWEiKSkoKQogIGVuZAp9KQoKVGFiOkFkZEJ1dHRvbih7CiAgTmFtZSA9ICLlpJblm71GRemZhueuoSIsCiAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCiAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcGFzdGViaW4uY29tL3Jhdy9GV3dkU1Q1WSIpKSgpCiAgZW5kCn0pCgpUYWI6QWRkQnV0dG9uKHsKICBOYW1lID0gIueIrOWimeiEmuacrCIsCiAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCiAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3c2NyaXB0cy5uZXQvcmF3L1VuaXZlcnNhbC1TY3JpcHQtV2FsbC1XYWxrLTkxNTMiKSkoKQogIGVuZAp9KQoKVGFiOkFkZEJ1dHRvbih7CglOYW1lID0gIuW8gOWQr+eOqeWutui/m+WHuuacjeWKoeWZqOaPkOekuiIsCglDYWxsYmFjayA9IGZ1bmN0aW9uKCkKICAgICAgCWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYm95c2NwL3NjcmlzY3JpcHRzYy9tYWluL2Jibi5sdWEiKSkoKQogIAllbmQKfSkKClRhYjpBZGRUZXh0Ym94KHsKCU5hbWUgPSAi6Lez6LeD6auY5bqm6K6+572uIiwKCURlZmF1bHQgPSAiIiwKCVRleHREaXNhcHBlYXIgPSB0cnVlLAoJQ2FsbGJhY2sgPSBmdW5jdGlvbihWYWx1ZSkKCQlnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIuQ2hhcmFjdGVyLkh1bWFub2lkLkp1bXBQb3dlciA9IFZhbHVlCgllbmQKfSkKClRhYjpBZGRUZXh0Ym94KHsKCU5hbWUgPSAi56e75Yqo6YCf5bqm6K6+572uIiwKCURlZmF1bHQgPSAiIiwKCVRleHREaXNhcHBlYXIgPSB0cnVlLAoJQ2FsbGJhY2sgPSBmdW5jdGlvbihWYWx1ZSkJCWdhbWUuUGxheWVycy5Mb2NhbFBsYXllci5DaGFyYWN0ZXIuSHVtYW5vaWQuV2Fsa1NwZWVkID0gVmFsdWUKCWVuZAp9KQoKVGFiOkFkZEJ1dHRvbih7CiAgTmFtZSA9ICLnqb/lopkiLAogIENhbGxiYWNrID0gZnVuY3Rpb24oKQogIGxvY2FsIFdvcmtzcGFjZSA9IGdhbWU6R2V0U2VydmljZSgiV29ya3NwYWNlIikKbG9jYWwgQ29yZUd1aSA9IGdhbWU6R2V0U2VydmljZSgiQ29yZUd1aSIpCmxvY2FsIFBsYXllcnMgPSBnYW1lOkdldFNlcnZpY2UoIlBsYXllcnMiKQpsb2NhbCBOb2NsaXAgPSBJbnN0YW5jZS5uZXcoIlNjcmVlbkd1aSIpCmxvY2FsIEJHID0gSW5zdGFuY2UubmV3KCJGcmFtZSIpCmxvY2FsIFRpdGxlID0gSW5zdGFuY2UubmV3KCJUZXh0TGFiZWwiKQpsb2NhbCBUb2dnbGUgPSBJbnN0YW5jZS5uZXcoIlRleHRCdXR0b24iKQpsb2NhbCBTdGF0dXNQRiA9IEluc3RhbmNlLm5ldygiVGV4dExhYmVsIikKbG9jYWwgU3RhdHVzID0gSW5zdGFuY2UubmV3KCJUZXh0TGFiZWwiKQpsb2NhbCBQbHIgPSBQbGF5ZXJzLkxvY2FsUGxheWVyCmxvY2FsIENsaXBvbiA9IGZhbHNlCiAKTm9jbGlwLk5hbWUgPSAi56m/5aKZIgpOb2NsaXAuUGFyZW50ID0gZ2FtZS5Db3JlR3VpCiAKQkcuTmFtZSA9ICJCRyIKQkcuUGFyZW50ID0gTm9jbGlwCkJHLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMubmV3KDAuMDk4MDM5MiwgMC4wOTgwMzkyLCAwLjA5ODAzOTIpCkJHLkJvcmRlckNvbG9yMyA9IENvbG9yMy5uZXcoMC4wNTg4MjM1LCAwLjA1ODgyMzUsIDAuMDU4ODIzNSkKQkcuQm9yZGVyU2l6ZVBpeGVsID0gMgpCRy5Qb3NpdGlvbiA9IFVEaW0yLm5ldygwLjE0OTQ3OTE2NiwgMCwgMC44MjA4Nzc3OSwgMCkKQkcuU2l6ZSA9IFVEaW0yLm5ldygwLCAyMTAsIDAsIDEyNykKQkcuQWN0aXZlID0gdHJ1ZQpCRy5EcmFnZ2FibGUgPSB0cnVlCiAKVGl0bGUuTmFtZSA9ICJUaXRsZSIKVGl0bGUuUGFyZW50ID0gQkcKVGl0bGUuQmFja2dyb3VuZENvbG9yMyA9IENvbG9yMy5uZXcoMC4yNjY2NjcsIDAuMDAzOTIx
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "Z脚本测试版"; Text ="Z脚本测试版"; Duration = 25; })
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "Z脚本测试版",
+    Text = "反挂机已开启",
+    Duration = 5, 
+})
+
+local Sound = Instance.new("Sound")
+        Sound.Parent = game.SoundService
+        Sound.SoundId = "rbxassetid://6011094380"
+        Sound.Volume = 3
+        Sound.PlayOnRemove = true
+        Sound:Destroy()
+
+print("反挂机开启")
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		   wait(1)
+		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/xiak27/637/refs/heads/main/xiao586.lua'))()
+local Window = OrionLib:MakeWindow({Name ="Z脚本测试版", HidePremium = false, SaveConfig = true,IntroText = "Z脚本测试版", ConfigFolder = "Z脚本测试版"})
+
+local Tab = Window:MakeTab({
+    Name = "信息",
+    Icon = "rbxassetid://10642752409",
+    PremiumOnly = false
+})
+
+Tab:AddParagraph("Z脚本测试版版")
+Tab:AddParagraph("作者roblox id:r4dhzm78")
+Tab:AddParagraph("作者QQ3891722440")
+Tab:AddParagraph("Q群1007580643")
+Tab:AddParagraph("Q2群1045061775")
+Tab:AddParagraph("倒卖马都飞天上去了")
+local Tab = Window:MakeTab({
+	Name = "通用",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("用户名:"," "..game.Players.LocalPlayer.Name.."")
+Tab:AddParagraph("注入器:"," "..identifyexecutor().."")
+Tab:AddParagraph("服务器的ID"," "..game.GameId.."")
+
+Tab:AddButton({
+  Name = "飞行V3",
+  Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CNHM/asg/refs/heads/main/fly.lua"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "外国FE陆管",
+  Callback = function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/FWwdST5Y"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "爬墙脚本",
+  Callback = function()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Wall-Walk-9153"))()
+  end
+})
+
+Tab:AddButton({
+	Name = "开启玩家进出服务器提示",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
+  	end
+})
+
+Tab:AddTextbox({
+	Name = "跳跃高度设置",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end
+})
+
+Tab:AddTextbox({
+	Name = "移动速度设置",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end
+})
+
+Tab:AddButton({
+  Name = "穿墙",
+  Callback = function()
+  local Workspace = game:GetService("Workspace")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Noclip = Instance.new("ScreenGui")
+local BG = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local StatusPF = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+local Plr = Players.LocalPlayer
+local Clipon = false
+ 
+Noclip.Name = "穿墙"
+Noclip.Parent = game.CoreGui
+ 
+BG.Name = "BG"
+BG.Parent = Noclip
+BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+BG.BorderSizePixel = 2
+BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+BG.Size = UDim2.new(0, 210, 0, 127)
+BG.Active = true
+BG.Draggable = true
+ 
+Title.Name = "Title"
+Title.Parent = BG
+Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.BorderSizePixel = 2
+Title.Size = UDim2.new(0, 210, 0, 33)
+Title.Font = Enum.Font.Highway
+Title.Text = "穿墙"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.FontSize = Enum.FontSize.Size32
+Title.TextSize = 30
+Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.TextStrokeTransparency = 0
+ 
+Toggle.Parent = BG
+Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+Toggle.Size = UDim2.new(0, 146, 0, 36)
+Toggle.Font = Enum.Font.Highway
+Toggle.FontSize = Enum.FontSize.Size28
+Toggle.Text = "打开/关闭"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 25
+Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.TextStrokeTransparency = 0
+ 
+StatusPF.Name = "StatusPF"
+StatusPF.Parent = BG
+StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+StatusPF.BackgroundTransparency = 1
+StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+StatusPF.Size = UDim2.new(0, 56, 0, 20)
+StatusPF.Font = Enum.Font.Highway
+StatusPF.FontSize = Enum.FontSize.Size24
+StatusPF.Text = "状态:"
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
+StatusPF.TextSize = 20
+StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+StatusPF.TextStrokeTransparency = 0
+StatusPF.TextWrapped = true
+ 
+Status.Name = "状态"
+Status.Parent = BG
+Status.Backgro

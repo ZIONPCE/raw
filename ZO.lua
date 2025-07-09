@@ -432,12 +432,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-  Name = "霖脚本",
+  Name = "XA脚本",
   Callback = function()
-  --通用，这样方便一些
-KingScript = "By King" Roblox= "草拟吗"
-KingTeam= "King无敌"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ShenJiaoBen/ShenJiaoBen/refs/heads/main/%E9%9C%96%E6%BA%BA%E8%84%9A%E6%9C%AC%E9%80%9A%E7%94%A8.lua"))()
+  loadstring(game:HttpGet("https://xingtaiduan.pythonanywhere.com/Loader"))()
   end
 })
 

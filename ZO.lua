@@ -532,13 +532,6 @@ Tab:AddButton({
   end
 })
 
-Tab:AddButton({
-  Name = "Ringta刷债券2",
-  Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/BONDTESTINGSAVE.github.io/refs/heads/main/ern.lua"))()
-  end
-})
-
 local Section = Tab:AddSection({
         Name = "----------功能区----------"
 })
@@ -547,13 +540,6 @@ Tab:AddButton({
   Name = "无拉回飞行(moondiely)",
   Callback = function()
   loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-FLY-in-Dead-Rails-One-Click-Script-KEYLESS-by-Moondiety-39179"))()
-  end
-})
-
-Tab:AddButton({
-  Name = "无拉回飞行2",
-  Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/selftilted/flighttosky/refs/heads/main/DeadRails"))()
   end
 })
 
@@ -568,13 +554,6 @@ Tab:AddButton({
   Name = "近战武器攻速2",
   Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/HeadHarse/Dusty/refs/heads/main/NOTV4TRUST"))()
-  end
-})
-
-Tab:AddButton({
-  Name = "moondiely hub",
-  Callback = function()
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/m00ndiety/Dead-rails/refs/heads/main/Full-GUI'))()
   end
 })
 
@@ -804,3 +783,23 @@ Tab:AddButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/DevSloPo/Main/refs/heads/main/pressure"))()
   end
 })
+
+local Tab = Window:MakeTab({
+	Name = "偷走脑红",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "wnder制作",
+  Callback = function()
+  --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mnstrenergy/script/refs/heads/main/src"))()
+  end
+})
+
+
+
+  

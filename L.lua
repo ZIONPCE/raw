@@ -1,10 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingScriptAE/No-sirve-nada./refs/heads/main/rayfield.ui.lua'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "霖溺-",
+    Name = "ZiO",
     Icon = "zap",
-    LoadingTitle = "UI作者:霖溺",
-    LoadingSubtitle = "由霖溺创建",
+    LoadingTitle = "UI作者:ZiO",
+    LoadingSubtitle = "由ZiO创建",
     Theme = "Serenity",
     ConfigurationSaving = {
         Enabled = true,
@@ -23,14 +23,14 @@ local InfoTab = Window:CreateTab(" 关于", "info") -- Lucide图标
 
 --  信息
 InfoTab:CreateParagraph({
-    Title = "霖溺测试版",
-    Content = "测试 v1.0\n一款高级的Roblox游戏脚本。\n由霖溺用❤️开发。"
+    Title = "Z脚本测试版",
+    Content = "测试 v1.0\n一款高级的Roblox游戏脚本。\n由ZiO开发。"
 })
 
 InfoTab:CreateButton({
     Name = "🔗 复制QQ群链接",
     Callback = function()
-        setclipboard("霖溺(感谢老铁支持)QQ新主群：http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=viOjjgj19-TUiZlamhpxb6uvWwVNGoB7&authKey=ACDi9sCtIis%2F4P%2BtirP046uWaJ54%2F149eBnUvaAsMu%2BWZwSFoEQrzZC9UDGFwmp%2F&noverify=0&group_code=744830231") 
+        setclipboard("ZiO(感谢老铁支持)QQ主群：https://qun.qq.com/universal-share/share?ac=1&authKey=ImuUDuLPq6Kspd53xlyN7NNNo7Q1pLxZ%2FtIt0P0IApeyTZVKxjR4ZZxVBiDTqgzO&busi_data=eyJncm91cENvZGUiOiIxMDA3NTgwNjQzIiwidG9rZW4iOiJKK25pbFN3ZDNkTFpsSENTb21UNmRUVC9rVHhOa0k4QTlaeVFzSFFHWlUxanJyc3orbzBMWTBRbFpMM3RSZHVlIiwidWluIjoiMzg5MTcyMjQ0MCJ9&data=C8Siwr6kM8ke-IWiAkCWptUq5QLxwDT-60X_4tpdMzQkQSdJhyEAAbrvg1uySkdlcK6VrfxIX7GzDTDcPEXjuQ&svctype=4&tempid=h5_group_info
         Rayfield:Notify({
             Title = "✅ 成功",
             Content = "qq群链接已复制!",

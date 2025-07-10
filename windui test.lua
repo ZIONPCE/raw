@@ -1,4 +1,4 @@
-local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevSloPo/Main/refs/heads/main/main.lua"))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/KingScriptAE/No-sirve-nada./refs/heads/main/rayfield.ui.lua'))()
 
 local Window = WindUI:CreateWindow({
     Title = "Z脚本正式版",
@@ -34,7 +34,6 @@ local Tab = Window:Tab({
     Locked = false,
 })
 
-Title = "QQ群1045061775",
 local Paragraph = Tab:Paragraph({
     Title = "旧版UI脚本",
     Desc = "",

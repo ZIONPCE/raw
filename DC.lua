@@ -422,17 +422,24 @@ game:GetService("Lighting").OutdoorAmbient = Color3.fromRGB(128, 128, 128)
 	end
 })
 
-local Tab = Window:Tab({
-    Title = "死铁轨",
-    Icon = "warehouse",
-    Locked = false,
-}) 
-
-local Button = Tab:Button({
-    Title = "自动刷劵",
-    Desc = "",
-    Locked = false,
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
-    end
+local Tab = Window:MakeTab({
+	Name = "死铁轨",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
 })
+
+Tab:AddButton({
+  Name = "自动刷劵",
+  Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+  end
+})
+
+Tab:AddButton({
+  Name = "HOKALAZA",
+  Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hehehe9028/Dead-rails-script/refs/heads/main/Dead%20rails%20HOKALAZA%20CRAZY"))()
+  end
+})
+  
+  

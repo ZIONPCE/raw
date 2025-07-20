@@ -7,7 +7,9 @@ getgenv().Gc = false
 getgenv().Cr = false
 getgenv().Gr = false
 getgenv().Bo = false
+
 -- 等级
+
 function doGr()
     spawn(function()
         while Gr == true do
@@ -30,7 +32,12 @@ function doGr()
         end
     end)
 end
+
+
+
+
 -- 出售
+
 function doSe()
     spawn(function()
         while Se == true do 
@@ -45,7 +52,10 @@ function doSe()
         end
     end)
 end
---  Boss
+
+
+
+-- boss
 function doBo()
     spawn(function()
         while Bo == true do
@@ -56,7 +66,14 @@ function doBo()
         end
     end)
 end
--- 水晶
+
+
+
+
+
+
+
+-- 水晶 
 function doCr()
     spawn(function()
         while Cr == true do 
@@ -74,6 +91,13 @@ function doCr()
         end
     end)
 end
+
+
+
+
+
+
+
 -- 刀刃
 function doB()
     spawn(function()
@@ -91,6 +115,14 @@ function doB()
         end
     end)
 end
+
+
+
+
+
+
+
+
 -- 挥砍
 function doS()
     spawn(function()
@@ -105,7 +137,14 @@ function doS()
     end
 end)
 end
--- 碎片、硬币
+
+
+
+
+
+
+
+-- 碎片, 硬币
 function doSh()
     spawn(function()
         while Sh == true do
@@ -119,19 +158,27 @@ function doSh()
         end
     end)
 end
+
 -- 传送至
+
 function teleportTo(placeCFrame)
     local plyr = game.Players.LocalPlayer
     if plyr.Character then
         plyr.Character.HumanoidRootPart.CFrame = placeCFrame
     end
   end
--- 图形用户界面
+
+
+
+-- GUI
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+
 local Window = Rayfield:CreateWindow({
-    Name = "忍者传奇 2",
-    LoadingTitle = "AOT 是巅峰之作",
-    LoadingSubtitle = "作者：diglt",
+    Name = "忍者传奇2",
+    LoadingTitle = "Z某人翻译",
+    LoadingSubtitle = "Z某人翻译",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, 
@@ -153,8 +200,10 @@ local Window = Rayfield:CreateWindow({
        Key = ""
     }
  })
+
  local Tab = Window:CreateTab("主界面")
  local Tab1 = Window:CreateTab("其他") 
+
  local Button = Tab1:CreateButton({
     Name = "兑换所有代码",
     Callback = function()
@@ -169,13 +218,20 @@ local Window = Rayfield:CreateWindow({
         local args = {[1] = "treeninja400"}game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("codeRemote"):InvokeServer(unpack(args))
     end,
  })
+
+
+
  local Button = Tab1:CreateButton({
-    Name = "销毁图形用户界面",
+    Name = "退出脚本",
     Callback = function()
         Rayfield:Destroy()
     end,
  })
+
+
+
  local Section = Tab:CreateSection("出售")
+
 local Toggle = Tab:CreateToggle({
     Name = "自动出售",
     CurrentValue = false,
@@ -187,7 +243,9 @@ local Toggle = Tab:CreateToggle({
     end,
  })
  
+
  local Section = Tab:CreateSection("自动功能")
+
 local Toggle = Tab:CreateToggle({
    Name = "自动挥砍",
    CurrentValue = false,
@@ -198,8 +256,10 @@ local Toggle = Tab:CreateToggle({
     end
    end,
 }) 
+
+
  local Toggle = Tab:CreateToggle({
-    Name = "自动水晶（更多元素存储）",
+    Name = "自动水晶",
     CurrentValue = false,
     Callback = function(bool)
      getgenv().Cr = bool
@@ -208,8 +268,9 @@ local Toggle = Tab:CreateToggle({
      end
     end,
  })
+
  local Toggle = Tab:CreateToggle({
-    Name = "自动刀刃（更多硬币）",
+    Name = "自动刀刃",
     CurrentValue = false,
     Callback = function(bool)
      getgenv().B = bool
@@ -218,6 +279,8 @@ local Toggle = Tab:CreateToggle({
      end
     end,
  })
+
+
  local Toggle = Tab:CreateToggle({
     Name = "自动等级",
     CurrentValue = false,
@@ -228,8 +291,9 @@ local Toggle = Tab:CreateToggle({
      end
     end,
  })
+
  local Toggle = Tab:CreateToggle({
-    Name = "自动 Boss",
+    Name = "自动Boss",
     CurrentValue = false,
     Callback = function(bool)
      getgenv().Bo = bool
@@ -238,8 +302,9 @@ local Toggle = Tab:CreateToggle({
      end
     end,
  })
+
  local Toggle = Tab:CreateToggle({
-    Name = "自动碎片/硬币（开发中/目前使用火山大师）",
+    Name = "自动碎片",
     CurrentValue = false,
     Callback = function(bool)
      getgenv().Sh = bool
@@ -248,11 +313,14 @@ local Toggle = Tab:CreateToggle({
      end
     end,
  })
+
+
  local Section = Tab:CreateSection("宝珠")
+
  local selectedOrb
  local Dropdown = Tab:CreateDropdown({
     Name = "选择宝珠",
-    Options = {"电子宝珠","星体宝珠","天空风暴宝珠","神秘融合宝珠","黑暗超新星宝珠","欧米茄起源宝珠","秘密阴影宝珠","遗忘传说宝珠","闪电风暴宝珠"},
+    Options = {"电子宝珠","星体宝珠","天空风暴宝珠","神秘融合宝珠","黑暗超星新宝珠","欧米茄起源宝珠","秘密阴影宝珠","遗忘传说宝珠","闪电风暴宝珠"},
     CurrentOption = "--",
     Callback = function(value)
         selectedOrb = value[1]
@@ -277,7 +345,7 @@ local Toggle = Tab:CreateToggle({
  
  
  local Toggle = Tab:CreateToggle({
-     Name = "自动选中宝珠（自动进化）",
+     Name = "自动选中宝珠",
      CurrentValue = false,
      Callback = function(bool)
       getgenv().O = bool
@@ -288,12 +356,15 @@ local Toggle = Tab:CreateToggle({
   })
  
   local Button = Tab:CreateButton({
-    Name = "宝珠价格（按F9查看）",
+    Name = "宝珠价格",
     Callback = function()
-        print("（电子=2k）（星体=5k）（天空=30k）（神秘=75k）（超新星=200k）（欧米茄起源=500k）（秘密阴影=2M）（闪电=5M）（遗忘=10个绿色碎片/代币）")
+        print("(电子 = 2k) (星体 = 5k) (天空 = 30k) (神秘 = 75k) (超星新 = 200k) (欧米茄起源 = 500k) (秘密阴影 = 2M) (闪电 = 5M) (遗忘 = 10 Green Shards/Tokens)")
     end,
  })
+
+
  local Section = Tab:CreateSection("其他功能")
+
  local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
  local Button = Tab:CreateButton({
     Name = "成为火山大师",
@@ -302,6 +373,7 @@ local Toggle = Tab:CreateToggle({
         pl.CFrame = location
     end,
  })
+
  local Button = Tab:CreateButton({
     Name = "获取所有宝箱",
     Callback = function()
@@ -327,6 +399,7 @@ local Toggle = Tab:CreateToggle({
     end,
  })
  
+
  local Button = Tab:CreateButton({
     Name = "购买所有技能",
     Callback = function()
@@ -341,6 +414,7 @@ local Toggle = Tab:CreateToggle({
         game.Players.LocalPlayer:WaitForChild("saberEvent"):FireServer(unpack(args))
     end,
  })
+
  local Button = Tab:CreateButton({
     Name = "购买所有能力",
     Callback = function()
@@ -352,4 +426,10 @@ local Toggle = Tab:CreateToggle({
             }
         }
         
-        game.Players.LocalPlayer:Wait
+        game.Players.LocalPlayer:WaitForChild("saberEvent"):FireServer(unpack(args))
+    end,
+ })
+
+
+ Rayfield:LoadConfiguration()
+

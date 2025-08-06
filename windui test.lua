@@ -40,7 +40,7 @@ local Window = WindUI:CreateWindow({
 
 Window:EditOpenButton({
     Title = "   打开Z脚本   ",
-    Icon = "eye",
+    Icon = "shield-check",
     CornerRadiu = UDim.new(0,16),
     StrokeThickness = 3,
     Color = ColorSequence.new( 
